@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: insta-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: INSTAGRAM_USERNAME
+        value: your_username
+      - key: INSTAGRAM_PASSWORD
+        value: your_password
